@@ -31,7 +31,8 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  text-decoration: underline;
+  color: #fff;
   line-height: 22px;
 }
 
@@ -81,7 +82,7 @@ a {
 
 .welcome-message {
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   color: #F3F3F3;
   line-height: 28px;
 }
@@ -120,7 +121,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #A5A5A5;
+  background-color: #4A4A4A;
 }
 
 .flex-box {

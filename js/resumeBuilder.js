@@ -14,7 +14,7 @@ $(document).click(function(loc){
         "location": "Bend, OR"
     },
     "biopic": "images/vega.jpg",
-    "welcomeMsg": "I am currently working for G5 Search Marketing Inc.",
+    "welcomeMsg": "Currently working for G5 Search Marketing Inc.",
     "skills": ["JavaScript", "HTML", "CSS","Photoshop", "SEO"]
 };
 
