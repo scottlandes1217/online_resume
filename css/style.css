@@ -171,12 +171,12 @@ span {
   padding: 5px;
 }
 
-#letsConnect {
+#lets-connect {
   text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
-  #letsConnect {
+  #lets-connect {
     margin-top: 5%;
   }
 }
@@ -188,7 +188,7 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-  #letsConnect {
+  #lets-connect {
     margin-top: 10%;
   }
   .biopic {
