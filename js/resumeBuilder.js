@@ -41,14 +41,16 @@ var education = {
         "schools": [
         { "name": "Summit High School",
             "datesAttended": "2006-2010",
-            "location": "Bend, OR"
+            "location": "Bend, OR",
+            "url": "https://www.bend.k12.or.us/summit"
         }
     ],
     "onlineCourses": [
         { "school": "Udacity",
             "title": "Front-End Web Developer",
             "dates": "2016",
-            "degree": "Nanodegree"
+            "degree": "Nanodegree",
+            "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
         }
     ]
 }
