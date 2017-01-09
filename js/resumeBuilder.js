@@ -144,7 +144,7 @@ education.display = function() {
         var schoolDates = HTMLschoolDates.replace("%data%", education.schools[i].dates);
         var schoolLocation = HTMLschoolLocation.replace("%data%", education.schools[i].location);
         var schoolMajor = HTMLschoolMajor.replace("%data%", education.schools[i].majors);
-        $(".education-entry:last").append(schoolName + schoolDegree + schoolDates + schoolLocation)
+        $(".education-entry:last").append(schoolName + schoolDegree + schoolDates + schoolLocation);
     }
 
     $("#education").append(HTMLonlineClasses);
