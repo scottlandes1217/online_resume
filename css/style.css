@@ -1,12 +1,14 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
 
-.education-entry, .work-entry, .project-entry {
+.education-entry, 
+.work-entry, 
+.project-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
