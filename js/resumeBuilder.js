@@ -15,7 +15,7 @@ var bio = {
         "location": "Bend, OR"
     },
     "biopic": "images/vega.jpg",
-    "WelcomeMessage": "Currently working for G5 Search Marketing Inc.",
+    "welcomeMessage": "Currently working for G5 Search Marketing Inc.",
     "skills": ["JavaScript", "HTML", "CSS", "Photoshop", "SEO"]
 };
 
@@ -41,7 +41,7 @@ var education = {
     "schools": [{
         "name": "Summit High School",
         "degree": "Diploma",
-        "majors": "Computer Applications",
+        "majors": ["Computer Applications"],
         "dates": "2006-2010",
         "location": "Bend, OR",
         "url": "https://www.bend.k12.or.us/summit"
@@ -69,10 +69,11 @@ var places = {
     "location": "Eugene, OR"
 };
 
+bio.display = function() {
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
-var formattedWelcomeMessage = HTMLwelcomeMessage.replace("%data%", bio.WelcomeMessage);
+var formattedWelcomeMessage = HTMLwelcomeMessage.replace("%data%", bio.welcomeMessage);
 var formattedContactInfo = [];
 formattedContactInfo.push(HTMLmobile.replace("%data%", bio.contacts.mobile));
 formattedContactInfo.push(HTMLemail.replace("%data%", bio.contacts.email));
@@ -85,13 +86,13 @@ if (formattedContactInfo.length > 0) {
     $("#footerContacts").append(formattedContactInfo[i]);
   }
 
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
-$("#header").append(formattedBioPic);
-$("#header").append(formattedWelcomeMessage);
+	$("#header").prepend(formattedRole);
+	$("#header").prepend(formattedName);
+	$("#header").append(formattedBioPic);
+	$("#header").append(formattedWelcomeMessage);
 
 }
-
+}
 
 
 work.display = function() {
@@ -149,6 +150,8 @@ education.display = function() {
     }
 };
 
+
+bio.display();
 education.display();
 work.display();
 projects.display();
